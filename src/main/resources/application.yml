@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+  application:
+    name: spinningnotes-auth
+app:
+  token:
+    secretkey: test
+    issuer: Simone Gallizia  
